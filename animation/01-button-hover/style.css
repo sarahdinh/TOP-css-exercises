@@ -17,3 +17,10 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+/* #transition-container:hover{
+  scale: 1.2;
+  }
+  This part is incorrect bc idk what a flex is, you just need to take care of the button*/
+button:hover {
+  font-size: 120%;
+} 
