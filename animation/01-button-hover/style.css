@@ -24,3 +24,7 @@ button {
 button:hover {
   font-size: 120%;
 } 
+/* NEED to specify the transition time */
+button {
+    transition: 0.3s ease-in-out;
+}
