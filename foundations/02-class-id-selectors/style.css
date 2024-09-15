@@ -1,0 +1,14 @@
+.class{
+    background-color:pink;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.class.one{
+    font-size:40px;
+}
+#id{
+    color:blue;
+    font-size:50px;
+}
+#id_01{
+    background-color:greenyellow;
+}
