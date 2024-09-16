@@ -7,21 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
+  /* box-sizing: border-box; */
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
+  /* width: 384px;
+  margin: 0 auto; */
 }
 
 button {
+  /* box-sizing: border-box; */
   background: white;
+  display:block;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
+/* Set value to all margin can effect --> should set to each of the margin */

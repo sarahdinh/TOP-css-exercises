@@ -24,5 +24,6 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 40px;
+  /* Margin: auto meaning all the way to the left side */
   margin-left: auto;
 }
