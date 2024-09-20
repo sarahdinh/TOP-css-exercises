@@ -52,10 +52,17 @@ button {
   background: #000;
   opacity: 0%;
 }
-
+.popup-modal{
+  
+}
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: popup 5s timing-function delay iteration-count direction fill-mode;
+  @keyframes popup {
+    from {background-color: red}
+    to {background-color: blue}
+  }
 }
 
 .backdrop.show {
