@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -9,11 +12,22 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
 }
-
+.left-links,
+.right-links{
+  display: flex;
+  align-items: center;
+}
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  /* because ul element have a default padding-left of 40px, you have to remove it */
+  padding-left: 0px;
+  margin: 0px;
+  /* remove the li part and add gap here */
+  gap: 8px;
 }
 
 a {
@@ -23,3 +37,7 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* li {
+  margin: 5px;
+} */
