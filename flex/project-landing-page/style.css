@@ -1,0 +1,176 @@
+body, html {
+    margin: 0; /* Ensure no default margin */
+    padding: 0;
+    width: 100%; /* Make sure body and html take up full width */
+}
+/* HEADER */
+.header-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color:white;
+    gap: 150px;
+}
+.first.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+}
+.right-links{
+    display: flex;
+    gap: 20px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 900;
+}
+.second.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 200px 100px 200px ;
+}
+.second .container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+#self-portrait{
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+}
+/* BODY */
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 100px;
+    width: 100%; /* Ensures parent takes full width */
+    flex-grow: 1;
+}
+.body.first{
+    display:flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 50px;
+}
+#healthy{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 12px;
+    
+}
+.text{
+    font-size: 15px;
+}
+
+.body.second{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background-color:#e5e7eb;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 50px 200px 20px 200px;
+}
+.author{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 200px;
+}
+.body.third{
+    display: flex;
+    box-sizing: border-box;
+    background-color:#3882F6;
+    color:white;
+    font-size: 36px;
+    font-style: light italic;
+    border-radius: 10px;
+    flex-basis: 100%;
+    margin-bottom: 100px;
+    flex-grow: 1;
+    padding: 30px 100px;
+    gap: 50px;
+}
+
+#eathealthy{
+    font-size: 20px;
+    font-weight: 900;
+}
+#signup{
+    font-size: 18px;
+}
+#borderbutton{
+    border: 2px solid white;
+    padding: 8px 32px;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    align-self: center;
+    display: flex;
+    flex: none;
+}
+.third .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* FOOTER */
+.footer{
+    background-color:#1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* COMMON */
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 9px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: #3882F6;
+    padding: 8px 32px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    width: 150px;
+}
